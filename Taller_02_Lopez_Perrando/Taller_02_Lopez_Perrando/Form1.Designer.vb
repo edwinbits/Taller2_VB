@@ -26,6 +26,8 @@ Partial Class frmPP
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnDatos = New System.Windows.Forms.Button()
         Me.btnTerminar = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -39,7 +41,7 @@ Partial Class frmPP
         '
         'btnDatos
         '
-        Me.btnDatos.Location = New System.Drawing.Point(117, 166)
+        Me.btnDatos.Location = New System.Drawing.Point(85, 210)
         Me.btnDatos.Name = "btnDatos"
         Me.btnDatos.Size = New System.Drawing.Size(112, 42)
         Me.btnDatos.TabIndex = 0
@@ -48,12 +50,22 @@ Partial Class frmPP
         '
         'btnTerminar
         '
-        Me.btnTerminar.Location = New System.Drawing.Point(294, 166)
+        Me.btnTerminar.Location = New System.Drawing.Point(362, 223)
         Me.btnTerminar.Name = "btnTerminar"
         Me.btnTerminar.Size = New System.Drawing.Size(111, 42)
         Me.btnTerminar.TabIndex = 1
         Me.btnTerminar.Text = "Terminar"
         Me.btnTerminar.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(119, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(305, 204)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'frmPP
         '
@@ -63,17 +75,20 @@ Partial Class frmPP
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(515, 277)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnTerminar)
         Me.Controls.Add(Me.btnDatos)
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmPP"
         Me.Text = "Pagina de Presentacion"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents Label1 As Label
     Friend WithEvents btnDatos As Button
     Friend WithEvents btnTerminar As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
