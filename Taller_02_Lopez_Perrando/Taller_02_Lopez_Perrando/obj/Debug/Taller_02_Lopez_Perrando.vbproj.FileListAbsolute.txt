@@ -23,3 +23,16 @@ C:\Users\EdwinPC\Source\Repos\edwinbits\Taller2_VB\Taller_02_Lopez_Perrando\Tall
 C:\Users\EdwinPC\Source\Repos\edwinbits\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.exe
 C:\Users\EdwinPC\Source\Repos\edwinbits\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.xml
 C:\Users\EdwinPC\Source\Repos\edwinbits\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.pdb
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\bin\Debug\Taller_02_Lopez_Perrando.exe.config
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\bin\Debug\Taller_02_Lopez_Perrando.exe
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\bin\Debug\Taller_02_Lopez_Perrando.pdb
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\bin\Debug\Taller_02_Lopez_Perrando.xml
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.vbprojAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.frmPP.resources
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.frm1.resources
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.Resources.resources
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.vbproj.GenerateResource.cache
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.vbproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.exe
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.xml
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.pdb

@@ -1,23 +1,24 @@
 ﻿Public Class frmPP
-
-    Private Sub btnDatos_Click(sender As Object, e As EventArgs) Handles btnDatos.Click
-
-        Dim nombre As String = Nothing
-
-        nombre = InputBox("Ingrese Nombre", "Registro de Datos Personales", "", 100, 50)
-
-        If nombre IsNot "" Then
-            MsgBox("Bienvenido Usuario: " + nombre, MsgBoxStyle.OkOnly, "Registro de Datos")
-        End If
-
+    Private Sub btnIns_Click(sender As Object, e As EventArgs) Handles btnIns.Click
+        txtIns.Visible = True
+        lblIns.Visible = True
+        lblUTP.Visible = False
+        lblFISC.Visible = False
+        btnRegPP.Visible = True
+        btnIns.Visible = False
     End Sub
 
-    Private Sub btnTerminar_Click(sender As Object, e As EventArgs) Handles btnTerminar.Click
-        Dim opcion As DialogResult
-        opcion = MsgBox("¿Realmente desea salir?", vbYesNo + vbQuestion, "Salir del programa")
-        If opcion = DialogResult.Yes Then
-            Me.Close()
-        End If
+    Private Sub btnRegPP_Click(sender As Object, e As EventArgs) Handles btnRegPP.Click
+        txtIns.Visible = False
+        lblIns.Visible = False
+        lblUTP.Visible = True
+        lblFISC.Visible = True
+        btnRegPP.Visible = False
+        btnIns.Visible = True
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnSig.Click
+        frm1.Show()
+        Me.Hide()
+    End Sub
 End Class

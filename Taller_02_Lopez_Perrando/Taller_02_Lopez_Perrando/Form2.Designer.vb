@@ -39,7 +39,6 @@ Partial Class frm1
         Me.btnID.TabIndex = 11
         Me.btnID.Text = "Ingresar Datos"
         Me.btnID.UseVisualStyleBackColor = False
-        Me.btnID.Visible = False
         '
         'btnTer
         '
@@ -53,7 +52,6 @@ Partial Class frm1
         Me.btnTer.TabIndex = 12
         Me.btnTer.Text = "Terminar"
         Me.btnTer.UseVisualStyleBackColor = False
-        Me.btnTer.Visible = False
         '
         'frm1
         '
