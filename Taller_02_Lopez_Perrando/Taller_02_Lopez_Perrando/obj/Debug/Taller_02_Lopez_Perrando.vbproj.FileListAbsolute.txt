@@ -36,3 +36,5 @@ C:\Users\EdwinPC\Source\Repos\edwinbits\Taller2_VB\Taller_02_Lopez_Perrando\Tall
 \\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.exe
 \\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.xml
 \\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.pdb
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.frm2.resources
+\\Mac\Home\Documents\GitHub\Taller2_VB\Taller_02_Lopez_Perrando\Taller_02_Lopez_Perrando\obj\Debug\Taller_02_Lopez_Perrando.frm3.resources

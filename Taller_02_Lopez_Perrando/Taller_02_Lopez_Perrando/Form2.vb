@@ -11,7 +11,14 @@
         Dim opcion As DialogResult
         opcion = MsgBox("¿Realmente desea salir?", vbYesNo + vbQuestion, "Salir del programa")
         If opcion = DialogResult.Yes Then
-            Me.Close()
+            Close()
+            Application.Exit()
+            End
         End If
+    End Sub
+
+    Private Sub btnSig_Click(sender As Object, e As EventArgs) Handles btnSig.Click
+        Me.Hide()
+        frm2.show()
     End Sub
 End Class

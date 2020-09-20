@@ -25,6 +25,7 @@ Partial Class frm1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm1))
         Me.btnID = New System.Windows.Forms.Button()
         Me.btnTer = New System.Windows.Forms.Button()
+        Me.btnSig = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnID
@@ -53,12 +54,26 @@ Partial Class frm1
         Me.btnTer.Text = "Terminar"
         Me.btnTer.UseVisualStyleBackColor = False
         '
+        'btnSig
+        '
+        Me.btnSig.BackColor = System.Drawing.Color.GhostWhite
+        Me.btnSig.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.btnSig.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnSig.Font = New System.Drawing.Font("Tahoma", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSig.Location = New System.Drawing.Point(45, 281)
+        Me.btnSig.Name = "btnSig"
+        Me.btnSig.Size = New System.Drawing.Size(163, 61)
+        Me.btnSig.TabIndex = 22
+        Me.btnSig.Text = "Siguiente"
+        Me.btnSig.UseVisualStyleBackColor = False
+        '
         'frm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ClientSize = New System.Drawing.Size(728, 386)
+        Me.Controls.Add(Me.btnSig)
         Me.Controls.Add(Me.btnTer)
         Me.Controls.Add(Me.btnID)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -70,4 +85,5 @@ Partial Class frm1
 
     Friend WithEvents btnID As Button
     Friend WithEvents btnTer As Button
+    Friend WithEvents btnSig As Button
 End Class
