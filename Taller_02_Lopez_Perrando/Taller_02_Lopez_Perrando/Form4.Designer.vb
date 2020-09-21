@@ -22,6 +22,7 @@ Partial Class frm3
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm3))
         Me.pnl1 = New System.Windows.Forms.Panel()
         Me.grpFondo = New System.Windows.Forms.GroupBox()
         Me.optFondoAzul = New System.Windows.Forms.RadioButton()
@@ -241,6 +242,7 @@ Partial Class frm3
         Me.Controls.Add(Me.btnLim)
         Me.Controls.Add(Me.txtTexto)
         Me.Controls.Add(Me.pnl1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frm3"
         Me.Text = "Ejemplo RadioButton y Checkbox"
         Me.pnl1.ResumeLayout(False)

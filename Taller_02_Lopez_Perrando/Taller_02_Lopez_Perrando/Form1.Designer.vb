@@ -91,7 +91,7 @@ Partial Class frmPP
         Me.txtIns.ReadOnly = True
         Me.txtIns.Size = New System.Drawing.Size(884, 458)
         Me.txtIns.TabIndex = 13
-        Me.txtIns.Text = "AQUI VA LA INSTRUCCION"
+        Me.txtIns.Text = resources.GetString("txtIns.Text")
         Me.txtIns.Visible = False
         '
         'lblLDS

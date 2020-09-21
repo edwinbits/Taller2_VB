@@ -1,5 +1,6 @@
 ﻿Public Class frm3
     Private Sub frm3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Cargaremos el frame desde 0'
         txtTexto.Text = " "
         txtTexto.BackColor = Color.White
         txtTexto.ForeColor = Color.Black
@@ -16,6 +17,7 @@
     End Sub
 
     Private Sub btnLim_Click(sender As Object, e As EventArgs) Handles btnLim.Click
+        'Este boton limpiara la pantalla para que todo quede reseteado'
         txtTexto.Text = " "
         txtTexto.BackColor = Color.White
         txtTexto.ForeColor = Color.Black
@@ -32,6 +34,7 @@
     End Sub
 
     Private Sub btnTer_Click(sender As Object, e As EventArgs) Handles btnTer.Click
+        'Este boton nos permitira salir del programa'
         Dim opcion As DialogResult
         opcion = MsgBox("¿Realmente desea salir?", vbYesNo + vbQuestion, "Salir del programa")
         If opcion = DialogResult.Yes Then
